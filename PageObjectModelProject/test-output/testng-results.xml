@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Everjobs Suite" duration-ms="16116" started-at="2018-10-17T14:29:59Z" finished-at="2018-10-17T14:30:15Z">
+    <groups>
+    </groups>
+    <test name="Page Object Model Project" duration-ms="16116" started-at="2018-10-17T14:29:59Z" finished-at="2018-10-17T14:30:15Z">
+      <class name="tests.TestBase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.TestBase@1e88b3c]" name="initialize" is-config="true" duration-ms="62860" started-at="2018-10-17T14:28:56Z" finished-at="2018-10-17T14:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:tests.TestBase@1e88b3c]" name="TeardownTest" is-config="true" duration-ms="725" started-at="2018-10-17T14:30:16Z" finished-at="2018-10-17T14:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:tests.LoginTest@42d80b78]" name="VerifyLogin" duration-ms="16022" started-at="2018-10-17T14:29:59Z" finished-at="2018-10-17T14:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Page Object Model Project -->
+  </suite> <!-- Everjobs Suite -->
+</testng-results>
