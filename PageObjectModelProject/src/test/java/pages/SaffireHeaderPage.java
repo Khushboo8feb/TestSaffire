@@ -33,5 +33,10 @@ WebDriver driver;
 		{
 			Lnk_SignOut.click();
 		}
+		
+		public void message()
+		{
+			System.out.println("Test");
+		}
 
 }
